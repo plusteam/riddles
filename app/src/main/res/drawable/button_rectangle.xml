@@ -3,17 +3,14 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
     <gradient
-        android:startColor="#3333CC"
-        android:centerColor="#3333CC"
-        android:endColor="#7bb8e2"
+        android:startColor="#ff9900"
+        android:centerColor="#ff9900"
+        android:endColor="#f8ed7e"
         android:angle="90"/>
     <padding android:left="7dp"
         android:top="7dp"
         android:right="7dp"
         android:bottom="7dp" />
-    <stroke
-        android:width="2dip"
-        android:color="#FFFFFF" />
     <corners android:radius= "50dp" />
 
 </shape>

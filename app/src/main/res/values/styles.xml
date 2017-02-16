@@ -1,26 +1,29 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="Widget.Button.1" parent="android:Widget">
-        <item name="android:background">@drawable/button_1</item>
+        <item name="android:background">@drawable/button_rectangle</item>
 
     </style>
     <style name="Widget.rectangle.1" parent="android:Widget">
-        <item name="android:background">@drawable/rectangle_1</item>
+        <item name="android:background">@drawable/button_rectangle_main</item>
 
     </style>
     <style name="Widget.Button.2" parent="android:Widget">
-        <item name="android:background">@drawable/button_2</item>
+        <item name="android:background">@drawable/button_circle</item>
 
     </style>
     <style name="Widget.Button.circle.2" parent="android:Widget">
-        <item name="android:background">@drawable/circle_2</item>
+        <item name="android:background">@drawable/button_circle_main</item>
 
+    </style>
+    <style name="HeaderBackground">
+        <item name="android:background">@drawable/header_background</item>
     </style>
 </resources>
